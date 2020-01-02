@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272E;
+}
+
+.stick {
+    height: 400px;
+    width: 15px;
+    background-color: #bbb;
+    right: 200px;
+    bottom: 0;
+    display: inline-block;
+    position: absolute;
+}
+
+.ball {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+.ground {
+    width: 100000px;
+    height: 10px;
+    position: fixed;
+    background-color: #bbb;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+}
